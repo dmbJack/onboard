@@ -3,26 +3,25 @@ import 'package:flutter/material.dart';
 enum ONBOARDTYPE { circleDote, simple }
 
 class Onboard {
-
-  
-
-
   ///List of screen, no need to set scaffold before using
   List<Widget> listScreen;
 
   ///Style of Button for change the page to next page
+  /// - Use a OutLinedButton.StyleFrom()
   ButtonStyle? nextButtonStyle;
 
   ///Here add the Text widget for the nexButton
   Text nextButtonText;
 
   ///Style of Button for jump to last page of the onboard
+  /// - Use a TextButton.StyleFrom()
   ButtonStyle? skipButtonStyle;
 
   ///Here add the Text widget for SkipButton
   Text skipButtonText;
 
   ///Style of button to quit the onboard
+  /// - Use a ElevatedButton.StyleFrom()
   ButtonStyle? beginButtonStyle;
 
   ///Here add the Text widget for beginButton
